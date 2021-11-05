@@ -1,16 +1,27 @@
 Package: phtools
-Title: What the Package Does (One Line, Title Case)
+Title: Functions for Editorial PH Tasks
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Riva",
+           family = "Quiroga",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "riva.quiroga@uc.cl",
+           comment = c(ORCID = "0000-0002-1147-4135"))
+Description: phtools automates some of the tasks of 
+    Programming Historian editorial team. The aim is to 
+    give us more time to be awesome digital humanities editors, 
+    and to avoid, when possible, frictions with our infrastructure.
+    Currently, the package includes functions to check image
+    filenames, check urls, and to browse the editorial guidelines.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    glue,
+    httr,
+    purrr,
+    stringr,
+    tibble,
+    usethis
