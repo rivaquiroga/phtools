@@ -25,3 +25,5 @@ Imports:
     stringr,
     tibble,
     usethis
+URL: https://github.com/rivaquiroga/phtools
+BugReports: https://github.com/rivaquiroga/phtools/issues
